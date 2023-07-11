@@ -67,11 +67,11 @@ body {
   line-height: 22.1px;
 }
 
-.header__address {
-  line-height: 23.9px;
+.header__address{
+  line-height: 23.8px;
 }
 
-.header__address > a:nth-child(1) {
+.header__address > a:nth-child(1){
   text-underline-offset: 4px;
 }
 
@@ -99,7 +99,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 30px;
-  margin-bottom: 132px;
+  margin-bottom: 128px;
 }
 
 .aligned-text_center {
@@ -120,6 +120,10 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   margin-right: 30px;
+}
+
+.cover__description-text {
+  word-spacing: 18.5px;
 }
 
 .bet-button {
