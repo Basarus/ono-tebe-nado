@@ -59,6 +59,11 @@ body {
   line-height: 24.3px;
 }
 
+.address > a:nth-child(1) {
+  text-underline-offset: 4px;
+  vertical-align: top;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -185,7 +190,7 @@ body {
 
 .lots__look-more-link {
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
   font-size: 20px;
   margin-left: 40px;
 }
