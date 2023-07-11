@@ -270,12 +270,13 @@ body {
 .footer__menu-list {
   list-style: none;
   text-align: center;
+  margin-top: 2px;
   width: 149px;
 }
 
 .footer__menu-link {
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
   white-space: nowrap;
 }
 
