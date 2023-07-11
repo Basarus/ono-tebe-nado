@@ -40,7 +40,7 @@ body {
   height: 105px;
   width: 147px;
   margin-left: 209px;
-  margin-right: 355px;
+  margin-right: 356px;
 }
 
 .header__logo-image {
@@ -56,12 +56,23 @@ body {
   flex-direction: column;
   font-style: unset;
   text-underline-offset: 4px;
-  line-height: 24.1px;
+  line-height: 24.5px;
 }
 
 .address > a:nth-child(1) {
+  text-underline-offset: 5px;
+}
+
+.address > a:nth-child(4) {
+  line-height: 22.1px;
+}
+
+.header__address{
+  line-height: 23.9px;
+}
+
+.header__address > a:nth-child(1){
   text-underline-offset: 4px;
-  vertical-align: top;
 }
 
 .main {
@@ -88,7 +99,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 30px;
-  margin-bottom: 128px;
+  margin-bottom: 132px;
 }
 
 .aligned-text_center {
@@ -111,9 +122,6 @@ body {
   margin-right: 30px;
 }
 
-.cover__description-text {
-  word-spacing: 18.2px;
-}
 
 .bet-button {
   width: 257px;
