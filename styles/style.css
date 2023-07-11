@@ -67,11 +67,11 @@ body {
   line-height: 22.1px;
 }
 
-.header__address{
+.header__address {
   line-height: 23.8px;
 }
 
-.header__address > a:nth-child(1){
+.header__address > a:nth-child(1) {
   text-underline-offset: 4px;
 }
 
