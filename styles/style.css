@@ -67,11 +67,11 @@ body {
   line-height: 22.1px;
 }
 
-.header__address{
+.header__address {
   line-height: 23.9px;
 }
 
-.header__address > a:nth-child(1){
+.header__address > a:nth-child(1) {
   text-underline-offset: 4px;
 }
 
@@ -121,7 +121,6 @@ body {
   text-transform: uppercase;
   margin-right: 30px;
 }
-
 
 .bet-button {
   width: 257px;
