@@ -1,8 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  padding-top: 92px;
-  padding-bottom: 92px;
 }
 
 .header {
