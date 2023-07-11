@@ -23,6 +23,7 @@ body {
   align-items: center;
   list-style: none;
   margin: auto;
+  white-space: nowrap;
 }
 
 .header__links-list-item:nth-child(n + 2) {
@@ -54,8 +55,14 @@ body {
   align-self: center;
   flex-direction: column;
   font-style: unset;
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
   line-height: 24.3px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cover {
@@ -111,7 +118,7 @@ body {
   text-transform: uppercase;
   color: white;
   background: none;
-  border: 1px solid white;
+  border: 0.1px solid white;
 }
 
 .lots {
@@ -252,6 +259,7 @@ body {
 .footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 3px;
+  white-space: nowrap;
 }
 
 .footer__social-list {
