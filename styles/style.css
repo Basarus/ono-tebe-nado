@@ -3,16 +3,18 @@ html {
 }
 
 .header {
-  min-width: 1340px;
+  width: 100%;
+  max-width: 1340px;
   display: flex;
   justify-content: space-between;
   align-self: center;
-  margin: 92px 49px 94px 51px;
+  margin: 92px 49px 98px 51px;
   font-size: 18px;
 }
 
 .header__links-list {
-  min-width: 388px;
+  width: 100%;
+  max-width: 388px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -47,6 +49,7 @@ a.link_active {
 }
 
 .address {
+  width: 100%;
   max-width: 240px;
   display: flex;
   align-self: center;
@@ -80,8 +83,8 @@ a.link_active {
 
 .cover {
   position: relative;
-  top: 3px;
-  min-width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: url(../images/cover.jpg) no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
@@ -89,7 +92,7 @@ a.link_active {
   align-self: center;
   color: white;
   padding: 165px 20px 50px 50px;
-  margin-bottom: 185px;
+  margin-bottom: 180px;
 }
 
 .cover__title {
@@ -147,7 +150,8 @@ a.link_active {
 }
 
 .lots {
-  min-width: 1340px;
+  width: 100%;
+  max-width: 1340px;
   align-self: center;
   margin-bottom: 181px;
 }
@@ -171,7 +175,8 @@ a.link_active {
 .card {
   position: relative;
   width: 430px;
-  min-height: 450px;
+  height: 450px;
+  max-height: 450px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -218,6 +223,7 @@ a.link_active {
 }
 
 .about {
+  width: 100%;
   max-width: 1340px;
   align-self: center;
   display: flex;
@@ -264,7 +270,8 @@ p.about__text:first-of-type {
 }
 
 .footer {
-  min-width: 1340px;
+  width: 100%;
+  max-width: 1340px;
   align-self: center;
   display: flex;
   justify-content: center;
