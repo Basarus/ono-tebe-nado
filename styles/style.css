@@ -164,6 +164,7 @@ a.link_active {
   justify-content: space-between;
   list-style: none;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -176,6 +177,7 @@ a.link_active {
   align-items: center;
   justify-content: space-between;
   padding: 50px 40px;
+  flex-grow: 1;
 }
 
 .card_type_film {
